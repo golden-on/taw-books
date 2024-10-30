@@ -44,3 +44,43 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Project Documentation
+
+### Implementation Choices
+
+1. **React with TypeScript**:
+   - We chose React for its component-based architecture, which allows for reusable and maintainable code.
+   - TypeScript was used to add static typing, which helps catch errors early and improves code quality.
+
+2. **Tailwind CSS**:
+   - Tailwind CSS was used for styling due to its utility-first approach, which allows for rapid and consistent styling.
+   - Custom configurations were added to Tailwind to support specific design requirements, such as custom widths and hover effects.
+
+3. **Component Structure**:
+   - The project is structured into reusable components such as `Header`, `HeroSection`, `FeaturedBooks`, `Testimonials`, and `Footer`.
+   - Each component is responsible for a specific part of the UI, making the codebase easier to manage and extend.
+
+4. **Responsive Design**:
+   - The layout is designed to be responsive, ensuring a good user experience on both desktop and mobile devices.
+   - Tailwind's responsive utilities were used to achieve this.
+
+5. **Accessibility**:
+   - Best practices for accessibility were followed, including semantic HTML and ARIA attributes where necessary.
+   - The color contrast and focus states were considered to ensure the site is usable for all users.
+
+### Challenges Faced
+
+1. **Custom Hover Effects**:
+   - Implementing custom hover effects with different scale values for the x and y axes required extending Tailwind CSS with custom utilities.
+   - This involved adding custom CSS in the `src/index.css` file and configuring Tailwind to recognize the new classes, but after i decided to not moving on with this solution.
+
+2. **Responsive Layouts**:
+   - Ensuring that the layout works well on various screen sizes required careful use of Tailwind's responsive utilities.
+   - Testing on different devices and screen sizes was necessary to ensure a consistent experience.
+
+3. **Form Handling**:
+   - Implementing the newsletter signup form in the footer required handling form validation and submission.
+   - Ensuring the form is accessible and provides feedback to users was a key consideration.
+
+Overall, the project was a great opportunity to apply modern web development practices using React, TypeScript, and Tailwind CSS. The challenges faced were valuable learning experiences that helped improve the implementation.
