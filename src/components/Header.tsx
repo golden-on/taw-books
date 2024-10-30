@@ -18,11 +18,11 @@ const Header: React.FC = () => {
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#" className="text-gray-800 hover:text-red-500 font-semibold">Home</a>
-          <a href="#" className="text-gray-800 hover:text-red-500 font-semibold">About Us</a>
-          <a href="#" className="text-gray-800 hover:text-red-500 font-semibold">Books</a>
-          <a href="#" className="text-gray-800 hover:text-red-500 font-semibold">New Release</a>
-          <a href="#" className="text-gray-800 hover:text-red-500 font-semibold">Contact Us</a>
+          <a href="#home"  className="text-gray-800 hover:text-red-500 font-semibold">Home</a>
+          <a href="#about" className="text-gray-800 hover:text-red-500 font-semibold">About Us</a>
+          <a href="#books" className="text-gray-800 hover:text-red-500 font-semibold">Books</a>
+          <a href="#testimonials" className="text-gray-800 hover:text-red-500 font-semibold">Testimonials</a>
+          <a href="#contact" className="text-gray-800 hover:text-red-500 font-semibold">Contact Us</a>
           <a href="#" className="text-gray-800 hover:text-red-500 font-semibold">Blog</a>
         </nav>
 
@@ -50,11 +50,11 @@ const Header: React.FC = () => {
       {/* Dropdown Mobile Menu */}
       {isMenuOpen && (
         <nav className="md:hidden absolute right-0 w-40 bg-white shadow-md mt-2 py-4 px-8 z-10">
-          <a href="#" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Home</a>
-          <a href="#" className="block text-gray-800 hover:text-red-500 font-semibold py-2">About Us</a>
-          <a href="#" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Books</a>
-          <a href="#" className="block text-gray-800 hover:text-red-500 font-semibold py-2">New Release</a>
-          <a href="#" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Contact Us</a>
+          <a href="#home"  className="block text-gray-800 hover:text-red-500 font-semibold py-2">Home</a>
+          <a href="#about" className="block text-gray-800 hover:text-red-500 font-semibold py-2">About Us</a>
+          <a href="#books" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Books</a>
+          <a href="#testimonials" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Testimonials</a>
+          <a href="#contact" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Contact Us</a>
           <a href="#" className="block text-gray-800 hover:text-red-500 font-semibold py-2">Blog</a>
         </nav>
       )}
