@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section
+    <section id="home"
       className="py-12 px-6 md:px-12"
       style={{
         background: "linear-gradient(90deg, #FFE5E5 11%, #F5FFFE 69%, #FFFFFF 100%)",
